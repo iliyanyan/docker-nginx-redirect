@@ -1,0 +1,7 @@
+to:
+  build: .
+  ports:
+    - "41234:80"
+  environment:
+    - SERVER_REDIRECT_TO=10.10.10.9
+    - SERVER_REDIRECT_TO_PORT=51234

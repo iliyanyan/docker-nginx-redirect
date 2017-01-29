@@ -1,2 +1,1 @@
-# docker-nginx-redirect
-Docker nginx redirect
+# NGINX Redirect based on nginx:1.9
