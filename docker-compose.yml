@@ -1,5 +1,6 @@
-to:
+redirect:
   build: .
+  restart: always
   ports:
     - "41234:80"
   environment:
