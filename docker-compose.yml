@@ -9,4 +9,4 @@ redirect:
     - LETSENCRYPT_EMAIL=email@example.com
     - SERVER_REDIRECT_TO=10.10.10.9
     - SERVER_REDIRECT_TO_PORT=51234
-    - WHITELIST=True
+    - WHITELIST=1
