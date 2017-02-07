@@ -4,5 +4,8 @@ redirect:
   ports:
     - "41234:80"
   environment:
+    - VIRTUAL_HOST=example.com
+    - LETSENCRYPT_HOST=example.com
+    - LETSENCRYPT_EMAIL=email@example.com
     - SERVER_REDIRECT_TO=10.10.10.9
     - SERVER_REDIRECT_TO_PORT=51234
